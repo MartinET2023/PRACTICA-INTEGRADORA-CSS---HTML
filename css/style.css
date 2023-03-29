@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+/*Gradiantes*/
+/*
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(228,25,59,1) 50%, rgba(0,212,255,1) 100%);
+*/
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+DIV{
+    box-sizing: border-box;
+    
+    margin: 25px;
+    padding: 30px;
+    border: 5px solid black
+          
+}
+
+#CONTAINER{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 250px;
+    align-content: center;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+ }
+@keyframes box {
+    from{
+        background-color: darkorange;    
+    }
+    to{
+        background-color: chartreuse;
+    }
+}
+
+#Caja1, #Caja2, #Caja3, #Caja4, #Caja5, #Caja6{
+    transition background-color: 5s;      
+    width: 200px;
+    background-color: rgb(243, 8, 8);
+    border: 2px solid black
+    
+}
+#Caja1:hover, #Caja2:hover, #Caja3:hover, #Caja4:hover, #Caja5:hover, #Caja6:hover{
+    background-color: rgb(27, 235, 27);
+}
+ 
+article{
+    border: 5px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+section{
+   margin: 20px;
+   border: 10px solid red;
+}
+
+#Nombre{
+    width: 300px;
+    height: 100px;
+    background-color: crimson;
+    border: 10px solid blue;
+    transition: width 5s;
+    
+
+}
+#Nombre:hover{
+    width: 900px;
+    background-color: wheat;
+}
+    
